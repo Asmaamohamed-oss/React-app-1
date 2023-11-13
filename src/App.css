@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.slide img{
+  min-height: 250px;
+  aspect-ratio: 2/1;
+}
+
+.product{
+  position: relative;
+}
+.product img{
+  width: 180px;
+  height: 180px;
+  margin:auto ;
+  object-fit: contain;
+}
+.card-body{
+  padding-bottom: 25px;
+  text-align: left;
+  background-color: rgb(247, 247, 247);
+  line-height: 1.6;
+  /* margin: 10px 0; */
+}
+.card-body a{
+  position: absolute;
+  margin-top: 5px;
+  bottom: -15px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.card-text{
+  font-size: 15px;
+}
+.img-container{
+  display: flex;
+}
